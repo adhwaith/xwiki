@@ -1,0 +1,64 @@
+
+application:
+  name: ASR
+  full_name: Application Service Registry
+  description: >
+    A centralized application that maintains service information,
+    ownership details, dependencies, and operational metadata.
+
+  business:
+    domain: Enterprise Technology
+    criticality: High
+    environment:
+      - Development
+      - Testing
+      - Production
+
+  ownership:
+    business_owner: Enterprise Architecture Team
+    technical_owner: Platform Engineering Team
+    support_team: Application Support Team
+    contact_email: asr-support@example.com
+
+  technology:
+    architecture: Microservices
+    backend:
+      language: Python
+      framework: FastAPI
+    frontend:
+      framework: React
+    database:
+      primary: PostgreSQL
+      cache: Redis
+    deployment:
+      platform: Kubernetes
+      cloud: AWS
+
+  integrations:
+    - name: Identity Service
+      protocol: REST
+      purpose: User authentication
+    - name: Notification Service
+      protocol: REST
+      purpose: Email notifications
+
+  infrastructure:
+    repository: https://github.com/example/asr-service
+    deployment_type: Containerized
+    monitoring: Prometheus
+    logging: Grafana Loki
+
+  security:
+    authentication: OAuth2
+    authorization: Role Based Access Control
+    data_classification: Internal
+
+  operations:
+    availability_target: 99.9%
+    backup_frequency: Daily
+    disaster_recovery: Enabled
+    support_hours: 24x7
+
+  documentation:
+    api_documentation: https://example.com/asr/api-docs
+    architecture_documentation: https://example.com/asr/architecture

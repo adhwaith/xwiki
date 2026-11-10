@@ -3,8 +3,7 @@ application:
   name: ASR
   full_name: Application Service Registry
   description: >
-    A centralized application that maintains service information,
-    ownership details, dependencies, and operational metadata.
+    A centralized application that maintains service information
 
   business:
     domain: Enterprise Technology
